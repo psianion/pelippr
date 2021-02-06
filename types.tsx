@@ -28,6 +28,7 @@ export type UserType = {
 export type TweetType = {
   id: string,
   createdAt: string,
+  content: string,
   user: UserType,
   image?: string,
   numberOfComments?: number,

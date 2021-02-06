@@ -11,7 +11,7 @@ export type LeftContainerProps = {
 const LeftContainer = ({user}: LeftContainerProps) => (
     <View>
         {/* LeftContainer */}
-        <ProfilePicture image={user.image} />
+        <ProfilePicture image={user.image} size={60}/>
     </View>
 )
 
