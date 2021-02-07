@@ -1,15 +1,16 @@
 import * as React from 'react';
 import { StyleSheet } from 'react-native';
 
-import Tweet from "../components/Tweet"
+import Feed from "../components/Feed"
 import { Text, View } from '../components/Themed';
-
+import NewTweetButton from "../components/NewTweetButton"
 import tweets from "../data/tweets";
 
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Tweet tweet={tweets[0]} />
+      <Feed />
+      <NewTweetButton />
     </View>
   );
 }

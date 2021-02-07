@@ -7,10 +7,11 @@ const styles = StyleSheet.create({
     },
     tweetHeaderContainer: {
         flexDirection: "row",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
     },
     tweetHeaderNames: {
         flexDirection: "row",
+        alignItems: "center",
     },
     name: {
         marginRight: 5,
@@ -24,7 +25,7 @@ const styles = StyleSheet.create({
     },
     createdAt: {
         marginRight: 5,
-        fontSize: 15,
+        fontSize: 13,
         color:"grey",
     },
     content: {
